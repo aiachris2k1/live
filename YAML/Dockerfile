@@ -5,4 +5,4 @@ COPY * /app/.
 RUN touch /app/aaa
 RUN cd /app && npm build
 EXPOSE 8080
-RUN tail -f /app/aaa
+#CMD tail -f /app/aaa
